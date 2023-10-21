@@ -4,7 +4,6 @@ const apiKey = '&appid=d2f25ee0d51c056032901095ad1cac2c&units=imperial';
 const generateBtn = document.querySelector('#generate');
 
 // Create a new date instance dynamically with JS
-let d = new Date();
 let newDate = (new Date()).toLocaleDateString('en-US');
 
 // Event listener to add function to existing HTML DOM element
